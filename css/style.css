@@ -98,7 +98,7 @@ header {
 }
 /*Flexbox items for each projects*/
 .project-item {
-  padding: 5px;
+  padding-right: 10px;
   flex: 1 1 auto;
   display: inline-block;
 }
@@ -144,23 +144,15 @@ footer {
     text-align: center;
   }
   h3 {
-    padding: 8px 0;
     margin-bottom: 0;
   }
   /*Flexbox container for projects*/
   .project-container {
     display: flex;
-    justify-content: space-around;
-  }
-  .projects h2 {
-    color: #23022e;
-    background: #d74e09;
+    justify-content: center;
   }
   .projects h3 {
-    color: #235789;
-    background: #ffe74c;
     margin-top: 0; /*Allign the project names with the top of images.*/
-    padding-left: 5px; /*Adds a bit of padding so that the text isn't stuck at the edge of the background*/
   }
 
   /*Creates a grid for Work Experience*/
@@ -168,14 +160,6 @@ footer {
     display: grid;
     grid-template-columns: 2fr 3fr;
     column-gap: 40px;
-  }
-  .work_experience h2 {
-    color: #23022e;
-    background: #3993dd;
-  }
-  .work_experience h3 {
-    color: #18020c;
-    background: #d81e5b;
   }
   /* Flexbox to make the links stay in the middle */
   .contact-list {
