@@ -75,14 +75,14 @@ h2 {
 /* Profile 
 -----------------------------*/
 header {
-  background: #7c90a0;
-  color: #c5e063;
+  background: #dbe9ee;
+  color: #251605;
   font-size: 20px;
 }
 /* Projects 
 -----------------------------*/
 .projects {
-  background: #a5ffd6;
+  background: #c0d6df;
 }
 .projects .btn {
   color: #ca054d;
@@ -106,7 +106,7 @@ header {
 /* Work Experience
 -----------------------------*/
 .work_experience {
-  background: #b9b7a7;
+  background: #facab9;
 }
 
 /* Education
@@ -124,7 +124,7 @@ header {
 -----------------------------*/
 footer {
   color: #251605;
-  background: #7c90a0;
+  background: #a394c2;
 }
 /*Creates a flexbox container for the footer*/
 .contact-list {
